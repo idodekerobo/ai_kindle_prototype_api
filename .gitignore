@@ -87,6 +87,9 @@ web_modules/
 stale_code.js
 content.js
 
+# audio uploads
+uploads/
+
 # dotenv environment variable files
 .env
 .env.development.local
