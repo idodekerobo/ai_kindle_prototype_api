@@ -1,0 +1,31 @@
+{
+  "name": "ai-kindle-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.33.1",
+    "@livekit/agents": "^0.6.3",
+    "@livekit/agents-plugin-openai": "^0.8.1",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.0.2",
+    "livekit-server-sdk": "^2.9.7",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.9",
+    "openai": "^4.77.0",
+    "openai-realtime-api": "^1.0.7",
+    "pdf-parse": "^1.1.1",
+    "socket.io": "^4.8.1",
+    "ws": "^8.18.0"
+  }
+}
